@@ -103,7 +103,7 @@ const ComposeMail = ({openDi ,setOpenDi}) => {
             window.Email.send({
                 ...config,
                 To : data.to,
-                From : "yazatbhardvaj2611@gmail.com",
+                From : "Set your own mail",
                 Subject : data.subject,
                 Body : data.body
             }).then(
@@ -113,12 +113,12 @@ const ComposeMail = ({openDi ,setOpenDi}) => {
         
         const payload = {
             to:data.to,
-            from:'yazatbhardvaj2611@gmail.com',
+            from:'Set Your own Mail',
             subject:data.subject,
             body:data.body,
             date: new Date(),
             image : '',
-            name : 'Yazat Sharma',
+            name : 'Set Your Own Name',
             starred : false,
             type : 'sent'
         }
